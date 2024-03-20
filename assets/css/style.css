@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    min-height: 100vh;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-top a{
+    color: white;
+}
+.header-top p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: DM Sans;
+}
+.header-bottom{
+    background-color: white;
+}
+.header-content{
+    max-width: 980px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.logo{
+ display: flex;
+ max-width: 150px;
+}
+.logo img{
+    width: 177pxpx;
+    height: 85px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+
+}
+.menu ul li{
+    margin-right: 5px;
+    padding: 20px;
+
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #484848;
+    font-size: 20px;
+    line-height: 20px;
+   
+}
+.content-area{
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.main-content{
+   
+    margin: 0 auto;
+
+}
+.main-content p{
+    line-height: 100px;
+    
+}
+.socila-logo ul li a img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
